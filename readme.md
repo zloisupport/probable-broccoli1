@@ -17,7 +17,7 @@
 
 # Сборка 
 
-Перед началом запустите файл CreateDirectoryAndCopy.cmd .Данный файл создаст директорию build и скопирует туда файл `ADOProvider.udl`.
+Перед началом запустите файл `CreateDirectoryAndCopy.cmd` .Данный файл создаст директорию build и скопирует туда файл `ADOProvider.udl`.
 
 
 
@@ -31,9 +31,15 @@
 Сконфигурируйте `ADOProvider.udl` из папки `build`, а не из `проектной директории`.Иначе вы получите вылит!
 Проект открывается через файл `MDIAPP.dpr`.
 
+Собранный exe файл и база данных лежат в [releases][releases]
 
 
 ## Скриншоты
 [![imageban](https://i1.imageban.ru/thumbs/2023.06.08/4ab2ea227b702dcc268e7fab39efd627.png)](https://imageban.ru/show/2023/06/08/4ab2ea227b702dcc268e7fab39efd627/png)
 [![imageban](https://i4.imageban.ru/thumbs/2023.06.08/f2bc5299c75c3a95310ab1d13be45278.png)](https://imageban.ru/show/2023/06/08/f2bc5299c75c3a95310ab1d13be45278/png)
 [![imageban](https://i5.imageban.ru/thumbs/2023.06.08/7629b49d02c72ad848c4ea3e6764adf6.png)](https://imageban.ru/show/2023/06/08/7629b49d02c72ad848c4ea3e6764adf6/png)
+
+
+
+[releases]:https://github.com/zloisupport/probable-broccoli1/releases
+
