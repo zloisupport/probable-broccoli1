@@ -7,12 +7,9 @@ object DataModule1: TDataModule1
   Width = 725
   object ADOConnection1: TADOConnection
     ConnectionString = 
-      'FILE NAME=C:\Documents and Settings\zoe\'#1056#1072#1073#1086#1095#1080#1081' '#1089#1090#1086#1083'\'#1087#1088#1086#1075#1088#1072#1084#1084#1082#1080'\' +
-      #1052#1072#1089#1089#1072#1085#1086#1074' '#1040'\'#1087#1088#1086#1075#1072'\Delphi\Venera.udl'
+      'FILE NAME=ADOProvider.udl'
     LoginPrompt = False
-    Provider = 
-      'C:\Documents and Settings\zoe\'#1056#1072#1073#1086#1095#1080#1081' '#1089#1090#1086#1083'\'#1087#1088#1086#1075#1088#1072#1084#1084#1082#1080'\'#1052#1072#1089#1089#1072#1085#1086#1074' '#1040 +
-      '\'#1087#1088#1086#1075#1072'\Delphi\Venera.udl'
+    Provider = 'ADOProvider.udl'
     Left = 80
     Top = 8
   end
